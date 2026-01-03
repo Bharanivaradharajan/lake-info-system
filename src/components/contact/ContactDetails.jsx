@@ -25,14 +25,14 @@ export default function ContactDetails() {
           <div className="bg-gray-50 p-6 rounded-xl shadow border">
             <h3 className="font-bold text-gray-800">📧 Email</h3>
             <p className="text-gray-600 mt-2">
-              example@unom.ac.in
+              cwrm@unom.ac.in
             </p>
           </div>
 
           <div className="bg-gray-50 p-6 rounded-xl shadow border">
             <h3 className="font-bold text-gray-800">☎ Phone</h3>
             <p className="text-gray-600 mt-2">
-              +91 ——————
+              +91 44 2539 1234<br/>
             </p>
           </div>
 
