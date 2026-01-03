@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
 
@@ -47,11 +48,45 @@ export default function Footer() {
           <h4 className="font-semibold text-gray-200 mb-3">
             Quick Links
           </h4>
+
           <ul className="space-y-2 text-gray-400">
-            <li className="hover:text-white transition">Home</li>
-            <li className="hover:text-white transition">Lakes Database</li>
-            <li className="hover:text-white transition">Statistics</li>
-            <li className="hover:text-white transition">Contact</li>
+
+            <li>
+              <Link
+                to="/"
+                className="hover:text-white transition"
+              >
+                Home
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to="/map"
+                className="hover:text-white transition"
+              >
+                Lakes Database
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to="/statistics"
+                className="hover:text-white transition"
+              >
+                Statistics
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to="/contact"
+                className="hover:text-white transition"
+              >
+                Contact
+              </Link>
+            </li>
+
           </ul>
         </div>
 
@@ -63,7 +98,6 @@ export default function Footer() {
 
           <div className="flex gap-4 mt-2">
 
-            {/* Social Icon */}
             <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition hover:scale-110 cursor-pointer">
               🌐
             </div>
@@ -75,6 +109,7 @@ export default function Footer() {
             <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition hover:scale-110 cursor-pointer">
               📍
             </div>
+
           </div>
         </div>
       </div>

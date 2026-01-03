@@ -1,19 +1,31 @@
+import { MapContainer, TileLayer } from "react-leaflet";
+
 export default function MapViewer({ search, filter }) {
 
   return (
-    <section className="py-12 bg-white">
+    <section className="py-10 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Display current filters for debugging */}
-        <div className="mb-4 text-sm text-gray-600">
-          <div>Search: {search || "—"}</div>
-          <div>Size: {filter.size || "—"}</div>
-          <div>Usage: {filter.usage || "—"}</div>
-        </div>
+        <h3 className="text-xl font-bold text-gray-800 mb-4">
+          Interactive GIS Map Viewer
+        </h3>
 
         {/* Map */}
-        <div className="w-full h-[60vh] bg-gray-200 rounded-xl shadow-lg flex items-center justify-center">
-          Interactive Map Will Load Here
+        <div className="w-full h-[65vh] rounded-xl shadow border overflow-hidden">
+
+          <MapContainer
+            center={[12.8406, 79.7036]}   // Kanchipuram District approx
+            zoom={11}
+            scrollWheelZoom={true}
+            className="w-full h-full"
+          >
+            {/* Base Map Layer */}
+            <TileLayer
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution="© OpenStreetMap contributors"
+            />
+          </MapContainer>
+
         </div>
 
       </div>
