@@ -7,6 +7,7 @@ import LakeDetailsPage from "./pages/LakeDetailsPage";
 
 
 
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -15,7 +16,7 @@ export default function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/map" element={<MapPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/lake/:id" element={<LakeDetailsPage />} />
+         <Route path="/lakes/:uqcode" element={<LakeDetailsPage />} />
 
         
 

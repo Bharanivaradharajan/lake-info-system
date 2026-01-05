@@ -1,3 +1,4 @@
+import { useParams } from "react-router-dom";
 import lakes from "../data/lakes";
 
 import Header from "../components/Header";
@@ -15,7 +16,22 @@ import LakeDownloads from "../components/lake/LakeDownloads";
 
 export default function LakeDetailsPage() {
 
-  const lake = lakes[0]; // TEMP — later use route param
+  const { uqcode } = useParams();
+
+  // match GeoJSON uqcode -> lake.id
+  const lake = lakes.find(l => l.id === uqcode);
+
+  if (!lake) {
+    return (
+      <>
+        <Header />
+        <div className="p-10 text-center text-red-600 font-bold">
+          Lake not found — {uqcode}
+        </div>
+        <Footer />
+      </>
+    );
+  }
 
   return (
     <>
