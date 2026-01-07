@@ -1,3 +1,9 @@
 @import "tailwindcss";
 @import "flowbite";
-
+@import "tailwindcss";
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fugaz One', cursive;
+}

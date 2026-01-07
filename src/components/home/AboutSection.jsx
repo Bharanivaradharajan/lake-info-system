@@ -43,6 +43,8 @@ Our collective efforts contribute to lake conservation, sustainable water manage
           </p>
         </div>
 
+        
+
         {/* Right Image Carousel */}
         <div className="relative h-[280px] md:h-[340px] rounded-xl overflow-hidden shadow-lg">
 

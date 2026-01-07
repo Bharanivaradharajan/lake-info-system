@@ -1,7 +1,7 @@
 export default function MapFilters({ search, setSearch, filter, setFilter }) {
 
   return (
-    <section className="bg-gray-50 py-6 border-b">
+    <section className="bg-gray-50 py-6 border-transparent border-b">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="grid md:grid-cols-3 gap-4">
@@ -12,7 +12,7 @@ export default function MapFilters({ search, setSearch, filter, setFilter }) {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search lake by name or ID..."
-            className="w-full px-4 py-3 rounded-lg border outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-3 rounded-lg border outline focus:ring-2 focus:ring-blue-500"
           />
 
           {/* Size Filter */}

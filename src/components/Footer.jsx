@@ -53,7 +53,7 @@ export default function Footer() {
 
             <li>
               <Link
-                to="/home"
+                to="/"
                 className="hover:text-white transition"
               >
                 Home

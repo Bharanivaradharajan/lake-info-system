@@ -13,6 +13,8 @@ import LakeTechnical from "../components/lake/LakeTechnical";
 import LakeCommunity from "../components/lake/LakeCommunity";
 import LakeConservation from "../components/lake/LakeConservation";
 import LakeDownloads from "../components/lake/LakeDownloads";
+import LakeQR from "../components/lake/LakeQR";
+
 
 export default function LakeDetailsPage() {
 
@@ -46,6 +48,12 @@ export default function LakeDetailsPage() {
       <LakeCommunity settlements={lake.settlements} usage={lake.usage} />
       <LakeConservation />
       <LakeDownloads />
+      <LakeHero lake={lake} />
+
+<div className="flex justify-center py-8">
+  <LakeQR uqcode={lake.id} />
+</div>
+
 
       <Footer />
     </>

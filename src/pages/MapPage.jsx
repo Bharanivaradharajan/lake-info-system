@@ -8,6 +8,7 @@ import MapFilters from "../components/map/MapFilters";
 import MapViewer from "../components/map/MapViewer";
 import MapInfo from "../components/map/MapInfo";
 
+
 export default function MapPage() {
 
   const [search, setSearch] = useState("");

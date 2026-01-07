@@ -1,6 +1,6 @@
 export default function ContactDetails() {
   return (
-    <section className="py-16 bg-white border-b">
+    <section className="py-16 bg-white border-transparent">
       <div className="max-w-7xl mx-auto px-6">
 
         <h2 className="text-2xl font-bold text-gray-800 text-center">
@@ -13,7 +13,7 @@ export default function ContactDetails() {
 
         <div className="grid md:grid-cols-3 gap-6 mt-10">
 
-          <div className="bg-gray-50 p-6 rounded-xl shadow border">
+          <div className="bg-gray-50 p-6 rounded-xl shadow border-transparent">
             <h3 className="font-bold text-gray-800">📍 Address</h3>
             <p className="text-gray-600 mt-2">
               Centre for Water Resource Management<br/>
@@ -22,14 +22,14 @@ export default function ContactDetails() {
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-xl shadow border">
+          <div className="bg-gray-50 p-6 rounded-xl shadow border-transparent">
             <h3 className="font-bold text-gray-800">📧 Email</h3>
             <p className="text-gray-600 mt-2">
               cwrm@unom.ac.in
             </p>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-xl shadow border">
+          <div className="bg-gray-50 p-6 rounded-xl shadow border-transparent">
             <h3 className="font-bold text-gray-800">☎ Phone</h3>
             <p className="text-gray-600 mt-2">
               +91 44 2539 1234<br/>

@@ -1,3 +1,5 @@
+import LakeVideoGuide from "../map/LakeVideoGuide";
+
 export default function MapInfo() {
   return (
     <section className="py-16 bg-gray-50 border-t">
@@ -19,7 +21,7 @@ export default function MapInfo() {
         {/* Features Grid */}
         <div className="grid md:grid-cols-3 gap-6 mt-10">
 
-          <div className="bg-white shadow border rounded-xl p-6">
+          <div className="bg-white shadow border-transparent rounded-xl p-6">
             <h4 className="font-bold text-gray-800 mb-2">
               🔍 View Lake Boundaries
             </h4>
@@ -29,7 +31,7 @@ export default function MapInfo() {
             </p>
           </div>
 
-          <div className="bg-white shadow border rounded-xl p-6">
+          <div className="bg-white shadow border-transparent rounded-xl p-6">
             <h4 className="font-bold text-gray-800 mb-2">
               📍 Explore & Identify Lakes
             </h4>
@@ -39,7 +41,7 @@ export default function MapInfo() {
             </p>
           </div>
 
-          <div className="bg-white shadow border rounded-xl p-6">
+          <div className="bg-white shadow border-transparent rounded-xl p-6">
             <h4 className="font-bold text-gray-800 mb-2">
               📊 Supports Research & Governance
             </h4>
@@ -55,9 +57,8 @@ export default function MapInfo() {
         <div className="mt-14 grid md:grid-cols-2 gap-8 items-center">
 
           {/* Image / Video Guide */}
-          <div className="w-full h-[320px] bg-gray-200 rounded-xl shadow flex items-center justify-center text-gray-600">
-            Video / Image Guide Preview Here
-          </div>
+          <LakeVideoGuide />
+
 
           {/* Instructions */}
           <div>

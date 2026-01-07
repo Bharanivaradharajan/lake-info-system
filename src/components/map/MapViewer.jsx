@@ -18,6 +18,7 @@ export default function MapViewer() {
     color: "yellow",
     fillOpacity: 0.7
   };
+  
 
   const onEachLake = (feature, layer) => {
 

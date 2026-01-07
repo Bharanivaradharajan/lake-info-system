@@ -4,6 +4,7 @@ import HeroSection from "../components/home/HeroSection";
 import AboutSection from "../components/home/AboutSection";
 import VisionSection from "../components/home/VisionSection";
 import StatisticsSection from "../components/home/StatisticsSection";
+import Testimonials from "../components/contact/Testimonials";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutSection />
       <VisionSection />
       <StatisticsSection />
+      <Testimonials />
       <Footer />
 
     </>

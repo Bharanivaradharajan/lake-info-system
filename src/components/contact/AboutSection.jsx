@@ -17,21 +17,21 @@ export default function AboutSection() {
 
         <div className="grid md:grid-cols-3 gap-6 mt-10">
 
-          <div className="p-6 bg-white shadow rounded-xl border">
+          <div className="p-6 bg-white shadow rounded-xl border-b-transparent">
             <h3 className="font-bold text-gray-800 mb-2">🎯 Objective</h3>
             <p className="text-gray-600">
               To create a centralized and accessible digital database of lakes in Kanchipuram District.
             </p>
           </div>
 
-          <div className="p-6 bg-white shadow rounded-xl border">
+          <div className="p-6 bg-white shadow rounded-xl border-b-transparent">
             <h3 className="font-bold text-gray-800 mb-2">🌊 Water Conservation</h3>
             <p className="text-gray-600">
               Promote sustainable lake protection, monitoring and awareness at district level.
             </p>
           </div>
 
-          <div className="p-6 bg-white shadow rounded-xl border">
+          <div className="p-6 bg-white shadow rounded-xl border-b-transparent">
             <h3 className="font-bold text-gray-800 mb-2">📚 Academic & Governance Support</h3>
             <p className="text-gray-600">
               Assist students, researchers and government officials with actionable data.
