@@ -1,18 +1,21 @@
 export default function LakeHero({ lake }) {
-
   return (
-    <section className="bg-blue-50 py-12 text-center">
-      <h1 className="text-4xl font-bold text-gray-800">
-        {lake.name}
-      </h1>
+    <section className="bg-blue-50 py-10 border-b">
+      <div className="max-w-7xl mx-auto px-6">
 
-      <p className="text-gray-600 mt-2">
-        {lake.district} District • {lake.type} Lake
-      </p>
+        <h1 className="text-3xl font-bold text-gray-800">
+          {lake.name} Lake
+        </h1>
 
-      <p className="text-sm text-gray-500 mt-1">
-        Last Updated — {lake.updated}
-      </p>
+        <p className="text-gray-600 mt-2">
+          {lake.village}, {lake.district} District · Tamil Nadu
+        </p>
+
+        <span className="mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm">
+          {lake.type}
+        </span>
+
+      </div>
     </section>
   );
 }

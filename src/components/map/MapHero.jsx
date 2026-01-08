@@ -1,6 +1,6 @@
 export default function MapHero() {
   return (
-    <section className="relative overflow-hidden bg-blue-900 py-20 text-white">
+    <section className="relative overflow-hidden bg-white py-20 text-black">
 
       {/* Floating background circles */}
       <div className="absolute inset-0 opacity-20">

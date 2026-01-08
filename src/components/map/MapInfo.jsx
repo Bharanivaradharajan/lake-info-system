@@ -2,7 +2,7 @@ import LakeVideoGuide from "../map/LakeVideoGuide";
 
 export default function MapInfo() {
   return (
-    <section className="py-16 bg-gray-50 border-t">
+    <section className="py-16 bg-gray-50 border-transparent">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Title */}

@@ -1,6 +1,6 @@
 export default function TeamHeader() {
   return (
-    <section className="text-center py-10 bg-blue-50 border-b">
+    <section className="text-center py-10 bg-white-50 border-transparent">
 
       <h1 className="text-3xl font-extrabold text-gray-800">
         About Our Project Team

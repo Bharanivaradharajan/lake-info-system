@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section className="py-16 bg-gray-50 border-b">
+    <section className="py-16 bg-gray-50 border-transparent">
       <div className="max-w-7xl mx-auto px-6">
 
         <h2 className="text-3xl font-bold text-center text-gray-800">
@@ -17,7 +17,7 @@ export default function AboutSection() {
 
         <div className="grid md:grid-cols-3 gap-6 mt-10">
 
-          <div className="p-6 bg-white shadow rounded-xl border-b-transparent">
+          <div className="p-6 bg-white shadow rounded-xl border-transparent">
             <h3 className="font-bold text-gray-800 mb-2">🎯 Objective</h3>
             <p className="text-gray-600">
               To create a centralized and accessible digital database of lakes in Kanchipuram District.

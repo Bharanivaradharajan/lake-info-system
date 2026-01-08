@@ -9,15 +9,19 @@ import Testimonials from "../components/contact/Testimonials";
 
 
 
+
+
 export default function ContactPage() {
   return (
     <>
       <Header />
 
       <AboutSection />
+      
       <ContactDetails />
       <ContactForm />
       <Testimonials />
+
         
 
       <Footer />

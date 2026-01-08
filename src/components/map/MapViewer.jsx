@@ -52,13 +52,13 @@ export default function MapViewer() {
           bg-white 
           shadow-xl 
           rounded-2xl 
-          border 
+          border
           border-gray-200
           overflow-hidden
         ">
 
           {/* HEADER BAR */}
-          <div className="px-6 py-3 border-b bg-gray-100">
+          <div className="px-6 py-3 border-transparent bg-gray-100">
             <h3 className="text-lg font-semibold text-gray-800">
               Interactive Lake GIS Viewer
             </h3>
