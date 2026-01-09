@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 
+
 export default function Header() {
 
   const location = useLocation();
@@ -13,6 +14,7 @@ export default function Header() {
   ];
 
   return (
+    
     <header className="bg-white shadow-sm border-b">
 
       {/* ---------- Logo + Title (unchanged) ---------- */}
@@ -63,5 +65,6 @@ export default function Header() {
       </nav>
 
     </header>
+    
   );
 }

@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 import LakeHero from "../components/lake/LakeHero";
-import LakeStats from "../components/lake/LakeStats";
+import LakeStats from "../components/lake/LakeStatsInline";
 import LakeOverview from "../components/lake/LakeOverview";
 import LakeMap from "../components/lake/LakeMap";
 import LakeGallery from "../components/lake/LakeGallery";
@@ -14,6 +14,8 @@ import LakeCommunity from "../components/lake/LakeCommunity";
 import LakeConservation from "../components/lake/LakeConservation";
 import LakeDownloads from "../components/lake/LakeDownloads";
 import LakeQR from "../components/lake/LakeQR";
+import LakeStatsSection from "@/components/lake/LakeStatsInline";
+import LakeStatsInline from "../components/lake/LakeStatsInline";
 
 
 
@@ -41,7 +43,7 @@ export default function LakeDetailsPage() {
       <Header />
 
       <LakeHero lake={lake} />
-      <LakeStats stats={lake.stats} />
+      <LakeStatsInline stats={lake.stats} />
       <LakeOverview text={lake.overview} />
       <LakeMap lake={lake} />
       <LakeGallery images={lake.images} />

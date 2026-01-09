@@ -7,9 +7,13 @@ import StatisticsSection from "../components/home/StatisticsSection";
 import Testimonials from "../components/contact/Testimonials";
 
 
+
 export default function Home() {
   return (
+    
     <>
+    
+     
       <Header />
       <HeroSection />
       <AboutSection />
@@ -17,7 +21,9 @@ export default function Home() {
       <StatisticsSection />
       <Testimonials />
       <Footer />
+      
 
     </>
+    
   );
 }

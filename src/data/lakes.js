@@ -33,7 +33,7 @@ const lakes = [
       "Kappankottur"
     ],
     "images": [
-      "/default-lake.jpg"
+      "/lakes/kappankottur.jpg"
     ]
   },
   {
