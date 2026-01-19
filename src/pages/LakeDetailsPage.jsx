@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import lakes from "../data/lakes";
 
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
