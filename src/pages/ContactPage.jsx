@@ -18,9 +18,10 @@ export default function ContactPage() {
 
       <AboutSection />
       
-      <ContactDetails />
-      <ContactForm />
+      
+      {/*<ContactForm />*/}
       <Testimonials />
+      <ContactDetails />
 
         
 
